@@ -1,0 +1,226 @@
+{
+  "listings": {
+    "listing0": {
+      "address": "1204 Greenfield Ave Nashville, TN 37216",
+      "squareFootage": 1380,
+      "price": 289500,
+      "numBeds": 2,
+      "numBaths": 1,
+      "heating": "Forced Air",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISa1vdf8hsh2x90000000000.jpg",
+      "uid": "12345"
+    },
+    "listing1": {
+      "address": "1033 Vaughn Crest Drive Franklin, TN 37069",
+      "squareFootage": 7898,
+      "price": 4579000,
+      "numBeds": 6,
+      "numBaths": 7,
+      "heating": "Geothermal",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_f/ISq1exsrpbyzdi1000000000.jpg",
+      "uid": "12345"
+    },
+    "listing2": {
+      "address": "1017 Brentwood Point Brentwood, TN 37027",
+      "squareFootage": 1088,
+      "price": 199991,
+      "numBeds": 2,
+      "numBaths": 2,
+      "heating": "No Data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISa9lb1bdf7oy60000000000.jpg",
+      "uid": "12345"
+    },
+    "listing3": {
+      "address": "0 Cherry Rd Waveryly, TN 37185",
+      "squareFootage": 0,
+      "price": 36500,
+      "numBeds": 0,
+      "numBaths": 0,
+      "heating": "Sun",
+      "cooling": "Wind",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISqtzk3aw3dihe0000000000.jpg",
+      "uid": "12345"
+    },
+    "listing4": {
+      "address": "12 Pebble Creek Murfreesboro, TN 37130",
+      "squareFootage": 1913,
+      "price": 285406,
+      "numBeds": 3,
+      "numBaths": 2,
+      "heating": "Heat Pump",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISu4bwpdbxmhsd0000000000.jpg",
+      "uid": "12345"
+    },
+    "listing5": {
+      "address": "576 Great Angelica Way Nolensville, TN 37135",
+      "squareFootage": 3000,
+      "price": 584500,
+      "numBeds": 4,
+      "numBaths": 3,
+      "heating": "No Data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISe0hxh6iw9z7k1000000000.jpg",
+      "uid": "12345"
+    },
+    "listing6": {
+      "address": "2780 Canoe Branch Road Lebanon, TN 37087",
+      "squareFootage": 3600,
+      "price": 779900,
+      "numBeds": 4,
+      "numBaths": 5,
+      "heating": "No Data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISq16n72ds4qu31000000000.jpg",
+      "uid": "12345"
+    },
+    "listing7": {
+      "address": "5433 Orleans Ave Mount Juliet, TN 37122",
+      "squareFootage": 1541,
+      "price": 189900,
+      "numBeds": 3,
+      "numBaths": 3,
+      "heating": "No Data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/IS668475q5h3lv0000000000.jpg",
+      "uid": "12345"
+    },
+    "listing8": {
+      "address": "141 Agee Circle East Hendersonville, TN 37075",
+      "squareFootage": 1161,
+      "price": 189900,
+      "numBeds": 3,
+      "numBaths": 2,
+      "heating": "No Data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISijefey7ccvgl0000000000.jpg",
+      "uid": "12345"
+    },
+    "listing9": {
+      "address": "134 Bella Vista Drive Goodlettsville, TN 37072",
+      "squareFootage": 5920,
+      "price": 1099000,
+      "numBeds": 5,
+      "numBaths": 7,
+      "heating": "No Data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/IS2z7k4t4bdqto1000000000.jpg",
+      "uid": "12345"
+    },
+    "listing10": {
+      "address": "1 Nope Road Antioch, TN 37013",
+      "squareFootage": 0,
+      "price": 5,
+      "numBeds": 0,
+      "numBaths": 0,
+      "heating": "fire",
+      "cooling": "none",
+      "imageUrl": "http://www.northescambia.com/wp-content/uploads/2010/09/Fire-036.jpg",
+      "uid": "12345"
+    },
+    "listing11": {
+      "address": "909 Reeves Road Antioch, TN 37013",
+      "squareFootage": 2028,
+      "price": 262500,
+      "numBeds": 3,
+      "numBaths": 1,
+      "heating": "Heat Pump",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISq1aiqo0p9dx91000000000.jpg",
+      "uid": "12345"
+    },
+    "listing12": {
+      "address": "907 Wisteria Court Smyrna, TN 37167",
+      "squareFootage": 2180,
+      "price": 319265,
+      "numBeds": 4,
+      "numBaths": 3,
+      "heating": "No Data",
+      "cooling": "No Data",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/IS6qzaefwdivrk1000000000.jpg",
+      "uid": "12345"
+    },
+    "listing13": {
+      "address": "8047 Vineyard Lane La Vergne, TN 37086",
+      "squareFootage": 4005,
+      "price": 399995,
+      "numBeds": 4,
+      "numBaths": 3,
+      "heating": "No Data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISuwc0wvsqx0c30000000000.jpg",
+      "uid": "12345"
+    },
+    "listing14": {
+      "address": "6341 Spera Pointe Crossing Hermitage, TN 37076",
+      "squareFootage": 2385,
+      "price": 334900,
+      "numBeds": 3,
+      "numBaths": 3,
+      "heating": "No Data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/IS2nu5j0qvzyi91000000000.jpg",
+      "uid": "12345"
+    },
+    "listing15": {
+      "address": "809 Nix Pass Madison, TN 37115",
+      "squareFootage": 1024,
+      "price": 189400,
+      "numBeds": 2,
+      "numBaths": 1,
+      "heating": "Heat pump",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISm6fmfmoc5tot0000000000.jpg",
+      "uid": "12345"
+    },
+    "listing16": {
+      "address": "1200 Seymour Ave Nashville, TN 37206",
+      "squareFootage": 1695,
+      "price": 389988,
+      "numBeds": 3,
+      "numBaths": 1,
+      "heating": "Baseboard",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISuw0r8axjdky81000000000.jpg",
+      "uid": "12345"
+    },
+    "listing17": {
+      "address": "123 East Nashville Nashville, TN 37207",
+      "squareFootage": 185,
+      "price": 57250,
+      "numBeds": 1,
+      "numBaths": 1,
+      "lotInAcres": 0,
+      "heating": "Heat pump",
+      "cooling": "Central",
+      "imageUrl": "https://static1.squarespace.com/static/558736bce4b04f0a4c09d8cd/58f52010cd0f6824cac523a4/58f52011bebafb8298e8a448/1492459539712/01+outside.jpg?format=1500w",
+      "uid": "12345"
+    },
+    "listing18": {
+      "address": "907 S Douglas Avenue Nashville, TN 37204",
+      "squareFootage": 2008,
+      "price": 440000,
+      "numBeds": 4,
+      "numBaths": 2,
+      "lotInAcres": 0.05,
+      "heating": "No data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/ISmepn993o1vra0000000000.jpg",
+      "uid": "12345"
+    },
+    "listing19": {
+      "address": "2197 Nolensville Pike APT 312 Nashville, TN 37211",
+      "squareFootage": 901,
+      "price": 245000,
+      "numBeds": 2,
+      "numBaths": 2,
+      "heating": "No data",
+      "cooling": "Central",
+      "imageUrl": "https://photos.zillowstatic.com/p_h/IS6eanlpr6zxmv0000000000.jpg",
+      "uid": "12345"
+    }
+  }
+}
