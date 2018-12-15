@@ -9,14 +9,16 @@ import './Listings.scss';
 class Listings extends React.Component {
   static propTypes = {
     listings: PropTypes.arrayOf(listingShape),
+    deleteSingleListing: PropTypes.func,
   }
 
   render() {
-    const { listings } = this.props;
+    const { listings, deleteSingleListing } = this.props;
     const listingsItemComponents = listings.map(listing => (
       <ListingItem
         listing={listing}
         key={listing.id}
+        deleteSingleListing={deleteSingleListing}
       />
     ));
     return (
