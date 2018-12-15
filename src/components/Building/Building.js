@@ -4,7 +4,7 @@ import './Building.scss';
 class Building extends React.Component {
   render() {
     return (
-      <div className="building">
+      <div className="building col">
         <h2>Building</h2>
       </div>
     );
