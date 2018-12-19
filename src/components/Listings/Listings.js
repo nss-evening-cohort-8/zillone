@@ -8,18 +8,25 @@ import './Listings.scss';
 
 class Listings extends React.Component {
   static propTypes = {
-    listings: PropTypes.arrayOf(listingShape),
+    listings: PropTypes.arrayOf(listingShape.listingShape),
     deleteSingleListing: PropTypes.func,
     passListingToEdit: PropTypes.func,
+    onListingSelection: PropTypes.func,
   }
 
   render() {
-    const { listings, deleteSingleListing, passListingToEdit } = this.props;
+    const {
+      listings,
+      deleteSingleListing,
+      passListingToEdit,
+      onListingSelection,
+    } = this.props;
     const listingsItemComponents = listings.map(listing => (
       <ListingItem
         listing={listing}
         key={listing.id}
         deleteSingleListing={deleteSingleListing}
+        onSelect={onListingSelection}
         passListingToEdit={passListingToEdit}
       />
     ));
