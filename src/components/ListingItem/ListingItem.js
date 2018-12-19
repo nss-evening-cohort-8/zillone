@@ -9,7 +9,7 @@ import './ListingItem.scss';
 
 class ListingItem extends React.Component {
   static propTypes = {
-    listing: listingShape,
+    listing: listingShape.listingShape,
     deleteSingleListing: PropTypes.func,
     passListingToEdit: PropTypes.func,
   }
@@ -24,6 +24,12 @@ class ListingItem extends React.Component {
     e.preventDefault();
     const { passListingToEdit, listing } = this.props;
     passListingToEdit(listing.id);
+  }
+
+  listingClick = (e) => {
+    e.stopPropagation();
+    const { listing, onSelect } = this.props;
+    onSelect(listing.id);
   }
 
   render() {
@@ -50,7 +56,7 @@ class ListingItem extends React.Component {
       return <span className="col-2"></span>;
     };
     return (
-      <li className="listing-item text-center">
+      <li className="listing-item text-center" onClick={this.listingClick}>
         <span className="col-7">{listing.address}</span>
         <span className="col-3">{formatPrice(listing.price)}</span>
         {makeButtons()}
