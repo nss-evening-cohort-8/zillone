@@ -1,5 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './ListingForm.scss';
+import authRequests from '../../helpers/data/authRequests';
 
 const defaultListing = {
   address: '',
@@ -14,6 +16,10 @@ const defaultListing = {
 };
 
 class ListingForm extends React.Component {
+  static propTypes = {
+    onSubmit: PropTypes.func,
+  }
+
   state = {
     newListing: defaultListing,
   }
@@ -33,12 +39,21 @@ class ListingForm extends React.Component {
 
   addressChange = e => this.formFieldStringState('address', e);
 
+  formSubmit = (e) => {
+    e.preventDefault();
+    const { onSubmit } = this.props;
+    const myListing = { ...this.state.newListing };
+    myListing.uid = authRequests.getCurrentUid();
+    onSubmit(myListing);
+    this.setState({ newListing: defaultListing });
+  }
+
   render() {
     const { newListing } = this.state;
     return (
       <div className="listing-form col">
         <h2>Add New Listing:</h2>
-        <form>
+        <form onSubmit={this.formSubmit}>
           <div className="form-group">
             <label htmlFor="address">Address:</label>
             <input
